@@ -24,6 +24,22 @@ PEP-翻译项目
     | 原文
     | 译文
 
+#### 4.4 代码区块
+代码区块的建立是在每行加上4个空格或者一个制表符（如同写代码一样）。如
+普通段落：
+
+void main()
+{
+    printf("Hello, Markdown.");
+}
+
+代码区块：
+
+    void main()
+    {
+        printf("Hello, Markdown.");
+    }
+
 
 PEP3333
 -------
