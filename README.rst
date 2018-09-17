@@ -1,37 +1,26 @@
 ===========
-restalchemy
+PEP-翻译项目
 ===========
 
-
-.. image:: https://img.shields.io/pypi/v/restalchemy.svg
-        :target: https://pypi.python.org/pypi/restalchemy
-
-.. image:: https://img.shields.io/travis/GuangTianLi/restalchemy.svg
-        :target: https://travis-ci.org/GuangTianLi/restalchemy
-
-.. image:: https://readthedocs.org/projects/restalchemy/badge/?version=latest
-        :target: https://restalchemy.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-
-
-
-A extension for creating simple RESTful JSON APIs from sqlalchemy.
-
-
-* Free software: MIT license
-* Documentation: https://restalchemy.readthedocs.io.
-
-
-Features
+格式
 --------
 
-* TODO
+所有翻译模块均为如下**格式**, translation标签为段落标签，原文中若无<p>标签，则所有内容都在同一段：
 
-Credits
+ * {% translation
+ * | 原文
+ * | 译文
+ * | 原文
+ * | 译文
+ * %}
+
+该模块理想情况下应该以句为单位。
+
+ * | 原文
+ * | 译文
+
+
+PEP3333
 -------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+ * 地址：https://blog.instcode.top/Python/peps/pep-3333.html
